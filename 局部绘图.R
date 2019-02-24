@@ -1,0 +1,1 @@
+qplot(volume,speed,data = five_data[200:235,],geom=c('path','point'),group=1,color=factor(state),xlab = 'Volume(pc/h/ln)',ylab = 'Speed(mi/h)')+scale_colour_manual(values=c("blue", "lightblue", "orange","red"))
